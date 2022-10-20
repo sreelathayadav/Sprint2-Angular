@@ -1,0 +1,23 @@
+
+<div class="container col-md-6" >
+    <h1 style="color:red">Login Page</h1>
+    <form (ngSubmit)="authorLogin()">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">UserName</label>
+        <input type="text"  class="form-control" id ="username" name="username"  [(ngModel)]= "author.username">   
+       </div>  <br/>
+       <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Password</label>
+        <input type="text"  class="form-control" id ="password" name="password" [(ngModel)]= "author.password">   
+       </div> <br/>
+      
+       <button type="Signup" class="btn btn-primary">Login</button>
+    </form>
+  
+  </div>
+
+
+  
+  
+    
+  

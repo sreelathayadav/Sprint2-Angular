@@ -1,0 +1,18 @@
+div{
+    border-bottom: 5px solid black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 0 30px;
+}
+
+div > a{
+    text-decoration: 5px;
+    padding: 19px;
+}
+
+div > a:hover{
+    text-decoration: 5px;
+    background-color: rgb(0, 255, 64);
+    color: white;
+}
+a {font-size: 30px}
